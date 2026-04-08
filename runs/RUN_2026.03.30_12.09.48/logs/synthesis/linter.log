@@ -1,0 +1,30 @@
+%Warning-EOFNEWLINE: /openlane/designs/risc_v_cpu/src/control.v:32:10: Missing newline at end of file (POSIX 3.206).
+                                                                     : ... Suggest add newline.
+   32 | endmodule
+      |          ^
+                     ... For warning description see https://verilator.org/warn/EOFNEWLINE?v=5.009
+                     ... Use "/* verilator lint_off EOFNEWLINE */" and lint_on around source to disable this message.
+%Warning-EOFNEWLINE: /openlane/designs/risc_v_cpu/src/imem.v:17:10: Missing newline at end of file (POSIX 3.206).
+                                                                  : ... Suggest add newline.
+   17 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/risc_v_cpu/src/pc.v:14:10: Missing newline at end of file (POSIX 3.206).
+                                                                : ... Suggest add newline.
+   14 | endmodule
+      |          ^
+%Warning-WIDTHEXPAND: /openlane/designs/risc_v_cpu/src/cpu.v:50:28: Operator COND expects 32 bits on the Conditional True, but Conditional True's SEL generates 12 bits.
+                                                                  : ... In instance cpu
+   50 | assign alu_in2 = (alu_src) ? instr[31:20] : rd2;
+      |                            ^
+%Warning-UNUSEDSIGNAL: /openlane/designs/risc_v_cpu/src/cpu.v:18:12: Signal is not used: 'funct3'
+                                                                   : ... In instance cpu
+   18 | wire [2:0] funct3 = instr[14:12];
+      |            ^~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/risc_v_cpu/src/cpu.v:64:6: Signal is not used: 'dummy'
+                                                                  : ... In instance cpu
+   64 | wire dummy;
+      |      ^~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/risc_v_cpu/src/imem.v:2:18: Bits of signal are not used: 'addr'[31:10,1:0]
+                                                                   : ... In instance cpu.imem_inst
+    2 |     input [31:0] addr,
+      |                  ^~~~
