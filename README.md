@@ -22,19 +22,19 @@ This project implements a Mini RISC-V CPU in Verilog and demonstrates a complete
 ## 📸 Results
 
 ### Floorplan
-![Floorplan](screenshots/floorplan.png)
+floorplan.png
 
 ### Placement
-![Placement](screenshots/placement.png)
+placement.png
 
 ### Routing
-![Routing](screenshots/routing.png)
+routing
 
 ### Final Layout
-![Final](screenshots/final.png)
+final.png
 
 ### GDS Layout (Magic)
-![GDS](screenshots/gds.png)
+gds.png
 
 ## 🧠 Key Learnings
 - Complete ASIC design flow (RTL → GDSII)
