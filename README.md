@@ -31,10 +31,10 @@ placement.png
 routing
 
 ### Final Layout
-final.png
+fulllayout.png
 
 ### GDS Layout (Magic)
-gds.png
+finalgds.png
 
 ## 🧠 Key Learnings
 - Complete ASIC design flow (RTL → GDSII)
