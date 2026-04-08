@@ -77,8 +77,6 @@ This project implements a **Mini RISC-V CPU in Verilog** and demonstrates a comp
 
 ---
 
-## 👨‍💻 Author
 
-**Prince Shivhare**
 
 
